@@ -14,11 +14,9 @@ export const ink = /*#__PURE__*/ defineChain({
         'https://rpc.hyperliquid.xyz/evm',
         'https://rpc.hypurrscan.io',
         'https://hyperliquid-json-rpc.stakely.io',
-        'https://hyperliquid.drpc.org'
+        'https://hyperliquid.drpc.org',
       ],
-      webSocket: [
-        'wss://hyperliquid.drpc.org',
-      ],
+      webSocket: ['wss://hyperliquid.drpc.org'],
     },
   },
   blockExplorers: {
